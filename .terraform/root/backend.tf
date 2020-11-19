@@ -6,5 +6,4 @@ terraform {
     key     = "terraformstatefile"
     bucket  = "terraformstatebucket58366"
   }
-
 }
