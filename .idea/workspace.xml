@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/root/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/backend.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.terraform/root/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/main.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.terraform/root/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/variables.tf" afterDir="false" />
     </list>

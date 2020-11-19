@@ -12,13 +12,3 @@ variable "repository_owner" {
   description = "GitHub repository owner"
   default = "LuckyDucky583"
 }
-
-variable "dataBucket"{
-  description = "S3 Bucket with the original String data"
-  default = "data-bucket"
-}
-
-variable "reverseBucket" {
-  description = "S3 Bucket with the reversed data"
-  default = "reverse-bucket"
-}
