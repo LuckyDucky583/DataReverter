@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/root/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/backend.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605785666603</updated>
-      <workItem from="1605785670929" duration="7743000" />
+      <workItem from="1605785670929" duration="7888000" />
     </task>
     <servers />
   </component>
