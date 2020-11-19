@@ -22,8 +22,3 @@ variable "reverseBucket" {
   description = "S3 Bucket with the reversed data"
   default = "reverse-bucket"
 }
-
-variable "test" {
-  description = "test"
-  default = ""
-}
