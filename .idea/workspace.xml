@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/root/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/root/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/backend.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.terraform" />
       <recent name="$PROJECT_DIR$/.github" />
       <recent name="$PROJECT_DIR$/workflows" />
     </key>
@@ -46,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605785666603</updated>
-      <workItem from="1605785670929" duration="4027000" />
+      <workItem from="1605785670929" duration="6687000" />
     </task>
     <servers />
   </component>
@@ -58,9 +63,9 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2230" y="533" width="640" height="408" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605789687700" />
-    <state x="2178" y="323" width="744" height="827" key="new project wizard" timestamp="1605785693293">
+    <state x="2178" y="323" width="744" height="827" key="new project wizard" timestamp="1605795917391">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2178" y="323" width="744" height="827" key="new project wizard/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605785693293" />
+    <state x="2178" y="323" width="744" height="827" key="new project wizard/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605795917391" />
   </component>
 </project>
