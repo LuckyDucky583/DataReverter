@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataReverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataReverter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <workItem from="1605803702900" duration="2575000" />
       <workItem from="1605863939021" duration="2901000" />
       <workItem from="1605954808445" duration="2887000" />
-      <workItem from="1605957922131" duration="12204000" />
+      <workItem from="1605957922131" duration="12475000" />
     </task>
     <servers />
   </component>
