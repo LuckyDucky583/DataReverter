@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/IAM.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/IAM.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda/lambda.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda/reverse_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <workItem from="1605863939021" duration="2901000" />
       <workItem from="1605954808445" duration="2887000" />
       <workItem from="1605957922131" duration="12740000" />
-      <workItem from="1605982411456" duration="10605000" />
+      <workItem from="1605982411456" duration="11019000" />
     </task>
     <servers />
   </component>
