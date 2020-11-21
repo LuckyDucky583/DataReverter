@@ -7,7 +7,7 @@ import boto3
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
-DST_BUCKET = os.environ.get('reversebucket58366')
+DST_BUCKET = boto3.resource('reversebucket58366')
 REGION = os.environ.get('REGION')
 
 s3 = boto3.resource('s3', region_name=REGION)
@@ -19,14 +19,16 @@ def handler(event, context):
 
     for record in event['Records']:
         src_bucket = record['s3']['bucket']['name']
+        print(src_bucket)
         src_key = record['s3']['object']['key']
+        print(src_key)
 
         copy_source = {
             'Bucket': src_bucket,
             'Key': src_key
         }
         LOGGER.info('copy_source: %s', copy_source)
-        bucket = s3.Bucket(DST_BUCKET)
+        bucket = s3.Bucket('reversebucket58366')
         bucket.copy(copy_source, src_key)
 
     return {

@@ -15,8 +15,8 @@ resource "aws_iam_policy" "lambda_policy" {
       ],
       "Effect": "Allow",
       "Resource": [
-        "arn:aws:s3:::${var.env_name}-dataBucket",
-        "arn:aws:s3:::${var.env_name}-dataBucket/*"
+        "arn:aws:s3:::databucket58366",
+        "arn:aws:s3:::databucket58366/*"
       ]
     },
     {
@@ -29,8 +29,8 @@ resource "aws_iam_policy" "lambda_policy" {
       ],
       "Effect": "Allow",
       "Resource": [
-        "arn:aws:s3:::${var.env_name}-dst-bucket",
-        "arn:aws:s3:::${var.env_name}-dst-bucket/*"
+        "arn:aws:s3:::reversebucket58366",
+        "arn:aws:s3:::reversebucket58366/*"
       ]
     },
     {
