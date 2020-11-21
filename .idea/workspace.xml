@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/root/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/backend.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/root/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/root/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/root/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/IAM.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/IAM.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/SQS.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/SQS.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/lambda.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/reverse_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda/reverse_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +18,16 @@
   </component>
   <component name="ProjectId" id="1kVVIabrIu0leJFboU2DaiuhNDn" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -32,9 +35,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tf-code/lambda" />
       <recent name="$PROJECT_DIR$/.terraform" />
       <recent name="$PROJECT_DIR$/.github" />
       <recent name="$PROJECT_DIR$/workflows" />
@@ -52,6 +61,11 @@
       <updated>1605785666603</updated>
       <workItem from="1605785670929" duration="7888000" />
       <workItem from="1605801855715" duration="19000" />
+      <workItem from="1605803702900" duration="2575000" />
+      <workItem from="1605863939021" duration="2901000" />
+      <workItem from="1605954808445" duration="2887000" />
+      <workItem from="1605957922131" duration="12740000" />
+      <workItem from="1605982411456" duration="3428000" />
     </task>
     <servers />
   </component>
@@ -59,13 +73,29 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2230" y="533" width="640" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605789687700">
+    <state x="2027" y="310" width="1026" height="854" key="#Project_Structure" timestamp="1605958085014">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2230" y="533" width="640" height="408" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605789687700" />
-    <state x="2178" y="323" width="744" height="827" key="new project wizard" timestamp="1605795917391">
+    <state x="2027" y="310" width="1026" height="854" key="#Project_Structure/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605958085014" />
+    <state x="2230" y="533" width="640" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605985270771">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2178" y="323" width="744" height="827" key="new project wizard/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605795917391" />
+    <state x="2230" y="533" width="640" height="408" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605985270771" />
+    <state x="2332" y="494" width="426" height="493" key="FileChooserDialogImpl" timestamp="1605954905757">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2332" y="494" width="426" height="493" key="FileChooserDialogImpl/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605954905757" />
+    <state x="2037" y="310" width="1026" height="854" key="SettingsEditor" timestamp="1605956107967">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2037" y="310" width="1026" height="854" key="SettingsEditor/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605956107967" />
+    <state x="2178" y="323" width="744" height="827" key="new project wizard" timestamp="1605956310207">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2178" y="323" width="744" height="827" key="new project wizard/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605956310207" />
+    <state x="2274" y="622" width="542" height="229" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605957116773">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2274" y="622" width="542" height="229" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605957116773" />
   </component>
 </project>
