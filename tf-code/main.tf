@@ -7,6 +7,8 @@ resource "aws_dynamodb_table" "terraform_locks" {
   hash_key     = "LockID"
   name         = "terraform-locks"
   billing_mode = "PAY_PER_REQUEST"
+  read_capacity = 20
+  write_capacity = 20
 
   attribute {
     name = "LockID"
@@ -18,11 +20,9 @@ terraform {
   required_version = ">=0.12.0"
   backend "s3" {
     region  = "eu-central-1"
-    profile = "default"
     key     = "terraformstatefile"
     bucket  = "terraformstatebucket58366"
-
-    dynamodb_table = "terraform_locks"
+    dynamodb_table = "terraform-locks"
     encrypt = true
   }
 }
