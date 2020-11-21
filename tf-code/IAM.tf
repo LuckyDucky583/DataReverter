@@ -69,12 +69,11 @@ resource "aws_iam_role_policy_attachment" "terraform_lambda_iam_policy_basic_exe
   role = aws_iam_role.s3_copy_function.id
   policy_arn = aws_iam_policy.lambda_policy.arn
 }
-/*
+
 resource "aws_lambda_permission" "allow_terraform_bucket" {
   statement_id = "AllowExecutionFromS3Bucket"
   action = "lambda:InvokeFunction"
   function_name = aws_lambda_function.s3_copy_reversed_data_function.arn
   principal = "s3.amazonaws.com"
-  source_arn = aws_s3_bucket.databucket.arn
+  source_arn = aws_s3_bucket.dataBucket.arn
 }
-*/

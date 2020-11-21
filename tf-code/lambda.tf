@@ -3,7 +3,7 @@ data "aws_s3_bucket_object" "reverse_data_lambda_function_hash" {
   bucket = "bucket-for-lambda-zips"
   key    = "path/reverse_data_lambda_function_payload.zip.base64sha256"
 }
-
+*/
 resource "aws_lambda_function" "s3_copy_reversed_data_function" {
   filename = "lambda.zip"
   source_code_hash = data.archive_file.my_lambda_function.output_base64sha256
@@ -21,9 +21,8 @@ resource "aws_lambda_function" "s3_copy_reversed_data_function" {
 }
 
 data "archive_file" "my_lambda_function" {
-  source_dir  = "${path.module}/lambda/"
-  output_path = "${path.module}/lambda.zip"
+  source_dir  = "lambda/"
+  output_path = "lambda/lambda.zip"
   type        = "zip"
 }
 
-*/
