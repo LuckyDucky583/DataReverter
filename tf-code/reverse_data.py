@@ -7,7 +7,7 @@ import boto3
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
-DST_BUCKET = os.environ.get('DST_BUCKET')
+DST_BUCKET = os.environ.get('reversebucket58366')
 REGION = os.environ.get('REGION')
 
 s3 = boto3.resource('s3', region_name=REGION)

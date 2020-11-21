@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dataBucket" {
-  bucket = "dataBucket58366"
+  bucket = "databucket58366"
   lifecycle {
     prevent_destroy = true
   }
@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dataBucket" {
 }
 
 resource "aws_s3_bucket" "reverseDataBucket" {
-  bucket = "reverseBucket58366"
+  bucket = "reversebucket58366"
   lifecycle {
     prevent_destroy = true
   }
@@ -36,7 +36,7 @@ resource "aws_s3_bucket" "reverseDataBucket" {
 }
 
 resource "aws_s3_bucket" "lambdaBucket" {
-  bucket = "lambdaBucket58366"
+  bucket = "lambdabucket58366"
   lifecycle {
     prevent_destroy = true
   }

@@ -75,6 +75,6 @@ resource "aws_lambda_permission" "allow_terraform_bucket" {
   action = "lambda:InvokeFunction"
   function_name = aws_lambda_function.s3_copy_reversed_data_function.arn
   principal = "s3.amazonaws.com"
-  source_arn = aws_s3_bucket.dataBucket.arn
+  source_arn = aws_s3_bucket.databucket.arn
 }
 */
