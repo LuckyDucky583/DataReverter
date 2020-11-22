@@ -20,6 +20,11 @@ def handler(event, context):
         src_bucket = record['s3']['bucket']['name']
         src_key = record['s3']['object']['key']
 
+        original = {
+            'Bucket': src_bucket,
+            'Key': src_key
+        }
+
         text = s3.Object(src_bucket, src_key)
         data = text.get()['Body'].read().decode('utf-8')
         data_1 = data[::-1]

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <workItem from="1605954808445" duration="2887000" />
       <workItem from="1605957922131" duration="12740000" />
       <workItem from="1605982411456" duration="18862000" />
-      <workItem from="1606042266946" duration="197000" />
+      <workItem from="1606042266946" duration="625000" />
     </task>
     <servers />
   </component>
