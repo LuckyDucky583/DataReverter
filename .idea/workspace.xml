@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.zip" beforeDir="false" afterPath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <workItem from="1605863939021" duration="2901000" />
       <workItem from="1605954808445" duration="2887000" />
       <workItem from="1605957922131" duration="12740000" />
-      <workItem from="1605982411456" duration="11019000" />
+      <workItem from="1605982411456" duration="18585000" />
     </task>
     <servers />
   </component>
@@ -81,6 +83,10 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2332" y="494" width="426" height="493" key="FileChooserDialogImpl/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605954905757" />
+    <state x="2142" y="478" width="826" height="517" key="IDE.errors.dialog" timestamp="1605999485024">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2142" y="478" width="826" height="517" key="IDE.errors.dialog/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605999485024" />
     <state x="2037" y="310" width="1026" height="854" key="SettingsEditor" timestamp="1605956107967">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
