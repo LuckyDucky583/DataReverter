@@ -31,7 +31,6 @@ def handler(event, context):
         LOGGER.info(data_1)
 
         LOGGER.info('copy_source: %s', data_1)
-       # s3.upload_file(data_1, 'reversebucket58366', src_key + '-reversed')
         s3.Object('reversebucket58366', src_key + '-reversed').put(Body=data_1)
 
     return {
