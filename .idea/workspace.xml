@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8ff85-a2c3-480b-9d5f-26a3297e4ea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/envs/demo/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/envs/demo/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/modules/s3_data_reverse/lambda.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/modules/s3_data_reverse/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraformPipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/IAM.tf" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/modules/s3_data_reverse/iam.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/S3.tf" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/modules/s3_data_reverse/s3.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/SQS.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/s3_copy_reversed_data_lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/lambda/s3_copy_reversed_data_lambda.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-code/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/envs/demo/terraform.tfstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/envs/demo/terraform.tfstate.backup" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,7 @@
       <workItem from="1605982411456" duration="18862000" />
       <workItem from="1606042266946" duration="1014000" />
       <workItem from="1606152779114" duration="915000" />
-      <workItem from="1606153715455" duration="3921000" />
+      <workItem from="1606153715455" duration="3941000" />
     </task>
     <servers />
   </component>
