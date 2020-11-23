@@ -9,11 +9,11 @@ LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
 REGION = os.environ.get('REGION')
-
-s3 = boto3.resource('s3', region_name=REGION)
+DST_BUCKET = os.environ.get('DST_BUCKET')
 
 
 def handler(event, context):
+    s3 = boto3.resource('s3', region_name=REGION)
     LOGGER.info('Event structure: %s', event)
 
     for record in event['Records']:
@@ -26,7 +26,7 @@ def handler(event, context):
         LOGGER.info(data_1)
 
         LOGGER.info('copy_source: %s', data_1)
-        s3.Object('reversebucket58366', src_key + '-reversed').put(Body=data_1)
+        s3.Object(DST_BUCKET, src_key + '-reversed').put(Body=data_1)
 
     return {
         'status': 'ok'

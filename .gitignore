@@ -1,2 +1,2 @@
-/tf-code/.terraform/
+/src/infrastructure/envs/demo/.terraform/
 /venv/
