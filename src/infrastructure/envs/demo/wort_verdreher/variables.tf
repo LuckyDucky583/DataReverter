@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "lambda_archive_path" {
-  default = "../../../lambda"
+  default = "../../../../lambda"
 }
 
 variable "env" {
