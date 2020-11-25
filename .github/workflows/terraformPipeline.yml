@@ -19,10 +19,6 @@ jobs:
 
     steps:
       # set environment variables
-      env:
-        tf_version: 0.13.5
-        tg_version: 0.26.2
-        tf_working_dir: ./src/infrastructure/envs/demo
 
       # Checkout the repository to the GitHub Actions runner
       - name: Checkout
@@ -35,6 +31,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
 
+      env:
+        tf_version: 0.13.5
+        tg_version: 0.26.2
+        tf_working_dir: ./src/infrastructure/envs/demo
 
       - name: 'Checkout'
         uses: actions/checkout@master
