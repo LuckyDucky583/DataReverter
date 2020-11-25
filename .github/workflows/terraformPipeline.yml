@@ -18,6 +18,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: 'environment variables'
+        env:
+          tf_version: 0.13.5
+          tg_version: 0.26.2
+          tf_working_dir: ./src/infrastructure/envs/demo
       # Checkout the repository to the GitHub Actions runner
       - name: Checkout
         uses: actions/checkout@v2
@@ -28,7 +33,6 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
-
 
       - name: 'Checkout'
         uses: actions/checkout@master
