@@ -39,11 +39,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/infrastructure/envs/demo/wort_verdreher" />
       <recent name="$PROJECT_DIR$/src/inrastructure/modules/s3_data_reverse" />
       <recent name="$PROJECT_DIR$/src/inrastructure/envs" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/tf-code/lambda" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -67,6 +67,7 @@
       <workItem from="1606152779114" duration="915000" />
       <workItem from="1606153715455" duration="5516000" />
       <workItem from="1606328615526" duration="30000" />
+      <workItem from="1606386596875" duration="281000" />
     </task>
     <servers />
   </component>
@@ -94,6 +95,14 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2037" y="310" width="1026" height="854" key="SettingsEditor/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1605956107967" />
+    <state x="2169" y="346" width="772" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606337673542">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2169" y="346" width="772" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1606337673542" />
+    <state x="2250" y="465" width="620" height="536" key="find.popup" timestamp="1606331932218">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2250" y="465" width="620" height="536" key="find.popup/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1606331932218" />
     <state x="2178" y="323" width="744" height="827" key="new project wizard" timestamp="1606152222946">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
