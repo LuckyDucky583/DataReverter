@@ -13,7 +13,8 @@ resource "aws_lambda_function" "s3_copy_reversed_data_function" {
     }
   }
   tags = {
-    Name = "function to take data from one s3 bucket, reverse it, and place it in another s3 bucket"
+    
+    Name = "s3_reversed_data_function"
   }
 }
 
