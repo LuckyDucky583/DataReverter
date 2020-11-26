@@ -3,7 +3,6 @@
 import os
 import logging
 import boto3
-import botocore
 
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
@@ -23,9 +22,8 @@ def handler(event, context):
         text = s3.Object(src_bucket, src_key)
         data = text.get()['Body'].read().decode('utf-8')
         data_1 = data[::-1]
-        LOGGER.info(data_1)
 
-        LOGGER.info('copy_source: %s', data_1)
+        LOGGER.info('copy_source: %s', src_key)
         s3.Object(DST_BUCKET, src_key + '-reversed').put(Body=data_1)
 
     return {
