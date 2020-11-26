@@ -13,7 +13,6 @@ resource "aws_lambda_function" "s3_copy_reversed_data_function" {
     }
   }
   tags = {
-    
     Name = "s3_reversed_data_function"
   }
 }
