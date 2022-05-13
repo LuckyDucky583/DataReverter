@@ -1,4 +1,4 @@
-name: 'TerraformPipeline'
+name: 'Terraform-Pipeline'
 
 on:
   push:
