@@ -3,15 +3,13 @@ name: 'Terraform-workflow'
 on:
   push:
     branches:
-    - master
     - main
     - develop
   pull_request:
     branches:
-    - master
     - main
     - develop
     
 jobs:
   run-terraform-workflow:
-    uses: LuckyDucky583/terraform-github-actions/workflows/.terraform_aws.yml@main
+    uses: LuckyDucky583/terraform-github-actions/reusable-workflows/.terraform_aws.yml@feat/change-folder-structure
