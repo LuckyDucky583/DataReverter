@@ -9,10 +9,7 @@ on:
     branches:
     - main
     - develop
-
+    
 jobs:
   run-terraform-workflow:
-    runs-on: ubuntu-latest
-    steps:
-      - name: run-terraform 
-        uses: LuckyDucky583/terraform-github-actions/terraform@feat/change-folder-structure
+      uses: LuckyDucky583/terraform-github-actions/.github/workflows/terraform-complete/.terraform-aws.yml@feat/change-folder-structure
