@@ -15,3 +15,5 @@ jobs:
       uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws.yml@feat/change-folder-structure
       with:
         working-directory: ./src/infrastructure/envs/demo
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
