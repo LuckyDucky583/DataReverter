@@ -4,12 +4,14 @@ on:
   push:
     branches:
     - main
-    - develop
+    - dev
   pull_request:
     branches:
     - main
-    - develop
+    - dev
     
 jobs:
   run-terraform-workflow:
       uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws.yml@feat/change-folder-structure
+      with:
+        working-directory: ./src/infrastructure/envs/demo
