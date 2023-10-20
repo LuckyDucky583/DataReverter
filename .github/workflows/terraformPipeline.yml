@@ -1,18 +1,11 @@
 name: 'Terraform-workflow'
 
-on:
-  push:
-    branches:
-    - main
-    - dev
-  pull_request:
-    branches:
-    - main
-    - dev
+on: [push, pull_request]
     
 jobs:
-  run-terraform-workflow:
-      uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws.yml@feat/change-folder-structure
-      with:
-        working-directory: ./src/infrastructure/envs/demo
-      secrets: inherit
+
+  build-and-test:
+    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws.yml@feat/change-folder-structure
+    with:
+      working-directory: ./src/infrastructure/envs/demo
+    secrets: inherit
