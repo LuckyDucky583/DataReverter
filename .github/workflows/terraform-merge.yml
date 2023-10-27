@@ -1,0 +1,15 @@
+name: 'Terraform-workflow'
+
+on:
+  push:
+    branches:
+    - main
+    - dev
+    
+jobs:
+
+  terraform:
+    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws-merge.yml@chore/try-new-workflow-source
+    with:
+      working-directory: ./src/infrastructure/envs/demo
+    secrets: inherit
