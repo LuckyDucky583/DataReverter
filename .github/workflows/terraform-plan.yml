@@ -9,7 +9,7 @@ on:
 jobs:
 
   terraform:
-    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws-pull-request.yml@v0.1.0
+    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws-pull-request.yml@v1
     with:
       working-directory: ./src/infrastructure/envs/demo
     secrets: inherit
