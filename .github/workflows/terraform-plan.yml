@@ -1,7 +1,7 @@
 name: 'Terraform-workflow'
 
 on:
-  push:
+  pull_request:
     branches:
     - main
     - dev
@@ -9,7 +9,7 @@ on:
 jobs:
 
   terraform:
-    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws-pull-request.yml@v1.0.1
+    uses: LuckyDucky583/terraform-github-actions/.github/workflows/.terraform-aws-pull-request.yml@v1.0.2
     with:
       working-directory: ./src/infrastructure/envs/demo
     secrets: inherit
